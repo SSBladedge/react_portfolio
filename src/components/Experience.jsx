@@ -5,7 +5,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+// import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -47,12 +47,12 @@ const experience = () => {
       title: "NEXT JS",
       style: "shadow-white",
     },
-    {
-      id: 7,
-      src: graphql,
-      title: "GRAPHQL",
-      style: "shadow-pink-400",
-    },
+    // {
+    //   id: 7,
+    //   src: graphql,
+    //   title: "GRAPHQL",
+    //   style: "shadow-pink-400",
+    // },
     {
       id: 8,
       src: github,
