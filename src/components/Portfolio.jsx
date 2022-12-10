@@ -9,27 +9,21 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
-      id: 1,
       src: arrayDestruct,
     },
     {
-      id: 2,
       src: reactParallax,
     },
     {
-      id: 3,
       src: navbar,
     },
     {
-      id: 4,
       src: reactSmooth,
     },
     {
-      id: 5,
       src: installNode,
     },
     {
-      id: 6,
       src: reactWeather,
     },
   ];
@@ -37,7 +31,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white xl:h-screen overflow-auto"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -47,9 +41,9 @@ const Portfolio = () => {
           <p className="py-6">Please find some of my works below</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {portfolios.map(({ id, src }) => {
+          {portfolios.map(({ src }, index) => {
             return (
-              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <div key={index} className="shadow-md shadow-gray-600 rounded-lg">
                 <img
                   src={src}
                   alt=""
