@@ -7,23 +7,18 @@ const NavBar = () => {
 
   const links = [
     {
-      id: 1,
       link: "home",
     },
     {
-      id: 2,
       link: "about",
     },
     {
-      id: 3,
       link: "portfolio",
     },
     {
-      id: 4,
       link: "experience",
     },
     {
-      id: 5,
       link: "contact",
     },
   ];
@@ -33,10 +28,10 @@ const NavBar = () => {
       <h1 className="text-5xl font-signature ml-2">George</h1>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ link }, index) => (
           <li
             className="px-4 cursor-pointer capitalize font-medium hover:scale-105 text-gray-500 duration-200"
-            key={id}
+            key={index}
           >
             <Link to={link} smooth duration={500}>
               {link}
