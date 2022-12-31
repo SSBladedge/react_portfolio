@@ -13,21 +13,31 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Talk about yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about yourself.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod maxime
+          efficit Theophrasti de beata vita liber, in quo multum admodum
+          fortunae datur. Istam voluptatem, inquit, Epicurus ignorat? Longum est
+          enim ad omnia respondere, quae a te dicta sunt. Itaque contra est, ac
+          dicitis; Tecum optime, deinde etiam cum mediocri amico. Quorum sine
+          causa fieri nihil putandum est.Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Quod maxime efficit Theophrasti de beata vita liber,
+          in quo multum admodum fortunae datur. Istam voluptatem, inquit,
+          Epicurus ignorat? Longum est enim ad omnia respondere, quae a te dicta
+          sunt. Itaque contra est, ac dicitis; Tecum optime, deinde etiam cum
+          mediocri amico. Quorum sine causa fieri nihil putandum est.
         </p>
         <br />
         <p className="text-xl">
-          Talk about yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about
-          yourself.Talk about yourself.Talk about yourself.Talk about yourself.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod maxime
+          efficit Theophrasti de beata vita liber, in quo multum admodum
+          fortunae datur. Istam voluptatem, inquit, Epicurus ignorat? Longum est
+          enim ad omnia respondere, quae a te dicta sunt. Itaque contra est, ac
+          dicitis; Tecum optime, deinde etiam cum mediocri amico. Quorum sine
+          causa fieri nihil putandum est.Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Quod maxime efficit Theophrasti de beata vita liber,
+          in quo multum admodum fortunae datur. Istam voluptatem, inquit,
+          Epicurus ignorat? Longum est enim ad omnia respondere, quae a te dicta
+          sunt. Itaque contra est, ac dicitis; Tecum optime, deinde etiam cum
+          mediocri amico. Quorum sine causa fieri nihil putandum est.
         </p>
       </div>
     </div>
