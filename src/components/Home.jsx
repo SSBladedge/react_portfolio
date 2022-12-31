@@ -17,7 +17,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             I have 5 years of experience building and designing software.
             Currently, I love to work on web applications using technologies
-            like React, Tailwind, Next JS and GrahQL
+            like React, Tailwind, Next JS and MongoDB
           </p>
           <div>
             <Link
