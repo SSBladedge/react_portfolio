@@ -38,7 +38,10 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Please find some of my works below</p>
+          <p className="py-6">
+            Please find some of my works below (These Projects are innacurate
+            and are scheduled to be updated soon)
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           {portfolios.map(({ src }, index) => {
